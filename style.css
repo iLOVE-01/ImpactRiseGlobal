@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero{
+  padding: 100px 0px;
+}
+
+@media  (max-width: 600px) {
+  .hero {
+    padding: 20px;
+  }
+}
+
+
+.hero-img {
+  border: 1px solid black;
+  border-radius: 20px;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+.hero p{
+  font-size: 1.5rem;
+}
+
+.text {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.color{
+  background-color: #ddd;
+}
+
+.about {
+  padding: 100px 0;
+  line-height: 1.1rem;
+}
+
+.about p{
+  font-size: 1.2rem;
+}
+
+@media  (max-width: 600px) {
+  .hero-img {
+    width: 400px;
+    border: none;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    padding-top: 0;
+  }
+
+  .about {
+    padding: 20px 0;
+  }
+
+  .about p{
+    font-size: 1rem;
+  }
+}
