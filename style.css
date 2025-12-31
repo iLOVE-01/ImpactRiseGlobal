@@ -1,18 +1,19 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero{
+.hero {
   padding: 100px 0px;
 }
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
   .hero {
     padding: 20px;
   }
@@ -27,7 +28,7 @@ html, body {
   height: auto;
 }
 
-.hero p{
+.hero p {
   font-size: 1.5rem;
 }
 
@@ -36,7 +37,7 @@ html, body {
   padding-top: 120px;
 }
 
-.color{
+.color {
   background-color: #ddd;
 }
 
@@ -45,11 +46,11 @@ html, body {
   line-height: 1.1rem;
 }
 
-.about p{
+.about p {
   font-size: 1.2rem;
 }
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
   .hero-img {
     width: 400px;
     border: none;
@@ -67,29 +68,123 @@ html, body {
     padding: 20px 0;
   }
 
-  .about p{
+  .about p {
     font-size: 1rem;
   }
 }
 
-.vision{
+.vision {
   padding: 100px 0;
   line-height: 1.5rem;
   background-color: #D0A02A;
 }
 
-.vision p{
+.vision p {
   font-size: 1.5rem;
 }
 
-@media  (max-width: 600px) {
-  .vision{
-  padding: 20px 0;
-  line-height: 1.2rem;
+.program {
+  padding: 100px 0;
+  background-color: #000;
+  color: #fff;
 }
 
-.vision p{
+.heyyo {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .vision {
+    padding: 20px 0;
+    line-height: 1.2rem;
+  }
+
+  .vision p {
+    font-size: 1.2rem;
+  }
+
+  .program {
+    padding: 20px 0;
+  }
+
+  .heyyo {
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+
+.donate {
+  padding: 50px 0;
+}
+
+.button-contact {
+  margin-top: 30px;
+  color: #000;
+  border: none;
+  background-color: #D0A02A;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: translateY 1s ease-in-out,
+    background-color .2s ease-in-out,
+    box-shadow .2s ease-in-out;
+}
+
+.button-contact:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 2px 2px 4px #555;
+
+}
+
+.button-contact:active {
+  transform: translateY(3px);
+}
+
+@media (max-width: 600px) {
+  .donate{
+    padding: 20px 0;
+  }
+
+  .button-contact{
+    margin-top: 15px;
+    padding: .8rem 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.contact {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social{
+  font-size: 3rem;
+  color: #D0A02A;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.footer {
+  background-color: #D0A02A;
   font-size: 1.2rem;
-}
+  text-align: center;
+  padding: 20px 0;
 }
 
+@media (max-width: 600px) {
+  .footer {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
